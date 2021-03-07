@@ -20,7 +20,7 @@ Features:
   - Optional tag navigation.
   - Frequently updated with new versions.
   - Many social media links supported.
-  - Media embed for videos.
+  - Media embedding for videos.
   - PageSpeed optimized.
   - Proper sharing links for posts on Facebook, Twitter and Google Plus.
   - SEO optimized.
