@@ -1,0 +1,41 @@
+Arguments: 
+  /usr/bin/node /usr/local/bin/yarn install --modules-folder ./_assets/yarn
+
+PATH: 
+  /usr/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/home/khan/Documents/Programs/Portfolio/tousif-k.github.io/node_modules/.bin:/home/khan/.miniconda3/condabin:/home/khan/.local/bin:/home/khan/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/var/lib/snapd/snap/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.15.4
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: EACCES: permission denied, unlink '/home/khan/Documents/Programs/Portfolio/tousif-k.github.io/_assets/yarn/.yarn-integrity'
+
+npm manifest: 
+  {
+    "name": "chalk",
+    "scripts": {
+      "setup": "bin/setup",
+      "local": "bundle exec jekyll serve --drafts",
+      "publish": "bin/deploy"
+    },
+    "dependencies": {
+      "jquery": "^3.2.1",
+      "npm": "^6.0.1",
+      "retinajs": "^2.1.1",
+      "svgxuse": "^1.2.4",
+      "webfontloader": "^1.6.28",
+      "zooming": "^2.0.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
