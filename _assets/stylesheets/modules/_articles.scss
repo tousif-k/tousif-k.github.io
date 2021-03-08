@@ -85,6 +85,52 @@
   }
 }
 
+.home-list {
+  display: block;
+  padding: 0;
+  margin: 20px 0;
+  list-style: none;
+  li {
+    position: relative;
+    display: block;
+    padding: 20px 0;
+    &:last-child {
+      border-bottom: 0;
+    }
+  }
+}
+
+.home-list-item {
+  a {
+    text-decoration: none;
+    h5 {
+      position: relative;
+      display: block;
+      padding-right: 25px;
+      color: $article-header-title-color;
+      border-bottom: 1px solid transparent;
+      svg {
+        width: 16px;
+        height: 16px;
+        vertical-align: middle;
+        margin: -2px 8px 0 8px;
+        fill: $article-header-title-color;
+        opacity: 0;
+        transition: opacity $base-transition-speed linear;
+      }
+    }
+    &:hover h5 svg {
+      opacity: 1;
+    }
+  }
+  p {
+    display: block;
+    margin: 12px 0 10px;
+    font-size: 15px;
+    color: $article-header-description-color;
+  }
+}
+
 .article-list-footer {
   display: block;
   span,
