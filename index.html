@@ -6,30 +6,34 @@ description: ""
 
 <ul class="home-list">
     <li class="home-list-item {% if site.scrollappear_enabled %}scrollappear{% endif %}">
-      <a href="/about" title="about">
+      <a href="/about" title="About Me">
         <h5>
           About Me
+          {% include svg-icon.html icon="arrow-right" %}
         </h5>
       </a>
     </li>
     <li class="home-list-item {% if site.scrollappear_enabled %}scrollappear{% endif %}">
-      <a href="/resume" title="resume">
+      <a href="/resume.pdf" title="My Resume" target="_blank" rel="noopener noreferrer">
         <h5>
           Resume
+          {% include svg-icon.html icon="arrow-right" %}
         </h5>
       </a>
     </li>
     <li class="home-list-item {% if site.scrollappear_enabled %}scrollappear{% endif %}">
-      <a href="/projects" title="projects">
+      <a href="/projects" title="My Projects">
         <h5>
           Projects
+          {% include svg-icon.html icon="arrow-right" %}
         </h5>
       </a>
     </li>
     <li class="home-list-item {% if site.scrollappear_enabled %}scrollappear{% endif %}">
-      <a href="/blog" title="blog">
+      <a href="/blog" title="Blog">
         <h5>
           Blog
+          {% include svg-icon.html icon="arrow-right" %}
         </h5>
       </a>
     </li>
